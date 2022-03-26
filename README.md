@@ -7,10 +7,9 @@ During the time of our analysis, we initially did EDA on all the features of our
 
 Next we implemented 7 machine learning algorithms Linear Regression,lasso,ridge,elasticnet,decission tree, Random Forest and XGBoost. We did hyperparameter tuning to improve our model performance. The results of our evaluation are:
 
-# displaying the results of evaluation metric values for all models
-result=pd.concat([training_df,test_df],keys=['Training set','Test set'])
-result
+
 Model	MAE	MSE	RMSE	R2_score	Adjusted R2
+
 Training set	0	Linear regression	4.444	34.810	5.900	0.774	0.77
 1	Lasso regression	7.242	91.458	9.563	0.406	0.39
 2	Ridge regression	4.444	34.810	5.900	0.774	0.77
